@@ -18,11 +18,17 @@ const app = express();
 
 const PORT = process.env.PORT || 5050;
 
+const allowedOrigins = [
+    "https://fin-lock.vercel.app",
+    "http://localhost:3000"
+];
+
 app.use(express.json());
 app.use(
     cors({
-        origin: "http://localhost:3000",
-        credentials: true
+        origin: allowedOrigins,
+        credentials: true,
+        methods: ["GET", "POST", "PUT", "DELETE"]
     })
 );
 

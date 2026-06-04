@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:5050";
+const baseUrl = "https://finlock-u20r.onrender.com";
 
 export const sendOtpApi = `${baseUrl}/api/otp/sendOTP`;
 export const verifyOtpApi = `${baseUrl}/api/otp/verifyOTP`;
