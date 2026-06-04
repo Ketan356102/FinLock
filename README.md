@@ -101,7 +101,7 @@ npm start
 - Client: React.js, Material-UI, DevExtreme
 - Server: Node.js, Express.js
 - Database: MongoDB Atlas
-- Testing: Postman
+- Testing: Postman or Thunder Client 
 
 
 
