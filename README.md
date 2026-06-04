@@ -107,9 +107,11 @@ npm start
 Contributions are welcome! If you find any bugs or want to enhance the app, feel free to open issues or submit pull requests. Please make sure to follow the coding standards and guidelines.
 Happy coding! If you have any questions or need assistance, don't hesitate to reach out.
 
-Design And Implemented By 
-Ketan Suthar
-🔗 GitHub Repository: https://github.com/Ketan356102/FinLock
+## Designed and Implemented By
+
+### Ketan Suthar
+
+- [GitHub](https://github.com/Ketan356102)
 
 
 
