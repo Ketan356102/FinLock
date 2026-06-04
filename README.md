@@ -96,8 +96,7 @@ npm install
 ```bash
 npm start
 ```
-
-##ScreenShot
+## Screenshots
 
 
 
