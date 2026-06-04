@@ -18,19 +18,28 @@ const app = express();
 
 const PORT = process.env.PORT || 5050;
 
+app.use(express.json());
+
 const allowedOrigins = [
-    "https://fin-lock.vercel.app",
-    "http://localhost:3000"
+  "http://localhost:3000",
+  "https://fin-lock-13nn.vercel.app"
 ];
 
-app.use(express.json());
-app.use(
-    cors({
-        origin: allowedOrigins,
-        credentials: true,
-        methods: ["GET", "POST", "PUT", "DELETE"]
-    })
-);
+// ✅ MUST be FIRST middleware
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(null, true); // TEMP FIX (allow all to avoid Render issues)
+    }
+  },
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  credentials: true,
+}));
+
+// ✅ IMPORTANT: handle preflight requests
+app.options("*", cors());
 
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
