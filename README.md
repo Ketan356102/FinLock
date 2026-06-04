@@ -46,12 +46,15 @@
 
 ## Environment Variables
 To run this project, you will need to add the following environment variables to your .env file in backend folder.
-Environment variables related to the email account used for sending OTPs and Notifications.
-If you are using gmail, enable 2 Step Verification.
 
- - MAIL_HOST : Your email host, generally smtp.gmail.com for gmail.
- - MAIL_USER : Your email username
- - MAIL_PASS : Your email password, incase of gmail it is App Password in the 2 Step Verification of your account.
+### Environment variables related to the email account used for sending OTPs and Notifications
+
+If you are using Gmail, enable **2-Step Verification** and generate an **App Password**.
+
+- `MAIL_HOST` : Your email host, generally `smtp.gmail.com` for Gmail.
+- `MAIL_USER` : Your email address.
+- `MAIL_PASS` : Your email App Password generated through Google Account Security settings.
+
 Server related environment variables.
 - MONGO_URL : Your MongoDB connection string
 - PORT : Port number
