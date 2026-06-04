@@ -31,6 +31,21 @@
 > - Enable users to create, update or delete any transaction.
 > - Allow users to Logout
 
+## Technologies Used
+> Backend
+> - Utilized Node.js and Express.js to build REST APIs serving as the application's backend.
+> - Engineered a secure authentication system by using the Nodemailer library, ensuring the confidential and reliable delivery of One Time Password for user authentication.
+> - Conducted comprehensive testing using Postman for optimal performance
+
+> Frontend
+> - Leveraged Material-UI and DevExtreme to desgin a seamless user interface for enhanced user experience.
+> - Enhanced user convenience by eliminating repeated logins using Local Storage, maintaining persistent login session.
+
+> Databases
+> - Stored all data, including user information and transaction details in MongoDB, a NoSQL database.
+> - Utilized MongoDB Atlas, a cloud based database.
+
+> - 
 
 
 
