@@ -45,7 +45,20 @@
 > - Stored all data, including user information and transaction details in MongoDB, a NoSQL database.
 > - Utilized MongoDB Atlas, a cloud based database.
 
-> - 
+## Environment Variables
+To run this project, you will need to add the following environment variables to your .env file in backend folder.
+Environment variables related to the email account used for sending OTPs and Notifications.
+If you are using gmail, enable 2 Step Verification.
+
+ - MAIL_HOST : Your email host, generally smtp.gmail.com for gmail.
+ - MAIL_USER : Your email username
+ - MAIL_PASS : Your email password, incase of gmail it is App Password in the 2 Step Verification of your account.
+
+Server related environment variables.
+- MONGO_URL : Your MongoDB connection string
+- PORT : Port number
+
+
 
 
 
