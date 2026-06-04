@@ -53,6 +53,9 @@ If you are using gmail, enable 2 Step Verification.
  - MAIL_HOST : Your email host, generally smtp.gmail.com for gmail.
  - MAIL_USER : Your email username
  - MAIL_PASS : Your email password, incase of gmail it is App Password in the 2 Step Verification of your account.
+Server related environment variables.
+- MONGO_URL : Your MongoDB connection string
+- PORT : Port number
 
 ## Run Locally
 
@@ -61,11 +64,6 @@ If you are using gmail, enable 2 Step Verification.
 https://github.com/Ketan356102/FinLock.git
 ```
 
-
-
-Server related environment variables.
-- MONGO_URL : Your MongoDB connection string
-- PORT : Port number
 
 
 
