@@ -59,10 +59,10 @@ Server related environment variables.
 
 ## Run Locally
 
-### Clone Project
+## Clone Project
 ```bash
 https://github.com/Ketan356102/FinLock.git
-```
+
 
 
 
