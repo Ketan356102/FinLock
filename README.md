@@ -9,7 +9,6 @@
 - [Environment Variables](#environment-variables)
 - [Run Locally](#run-locally)
 - [Tech Stack](#tech-stack)
-- [Screenshots](#screenshots)
 
 ## Project Description
 
@@ -97,12 +96,12 @@ npm install
 npm start
 ```
 
-## Screenshots
-### Registration
-- Send OTP
-- <p align="center">
-  <img src="Screenshot 2026-06-04 190441.png" width="45%">
-</p>
+## Tech Stack
+
+- Client: React.js, Material-UI, DevExtreme
+- Server: Node.js, Express.js
+- Database: MongoDB Atlas
+- Testing: Postman
 
 
 
