@@ -59,26 +59,41 @@ Server related environment variables.
 
 ## Run Locally
 
+### Clone the project
+
 ```bash
-# Clone the project
 git clone https://github.com/your-username/FinLock.git
+```
 
-# Go to the project directory
+### Go to the project directory
+
+```bash
 cd FinLock
+```
 
-# Install backend dependencies
+### Go to the backend directory and install dependencies
+
+```bash
 cd backend
 npm install
+```
 
-# Start backend server
+### Start the backend server
+
+```bash
 npm run server
+```
 
-# Open a new terminal
-# Install frontend dependencies
+### Open a new terminal, go to the frontend directory, and install dependencies
+
+```bash
 cd frontend
 npm install
+```
 
-# Start frontend server
+### Start the frontend server
+
+```bash
 npm start
 ```
 
