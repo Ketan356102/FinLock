@@ -98,6 +98,11 @@ npm start
 ```
 
 ## Screenshots
+### Registration
+- Send OTP
+- <p align="center">
+  <img src=""C:\Users\ketan\OneDrive\Pictures\Screenshots\Screenshot 2026-06-04 190441.png"" width="45%">
+</p>
 
 
 
