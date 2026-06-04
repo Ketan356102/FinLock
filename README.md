@@ -101,7 +101,12 @@ npm start
 - Client: React.js, Material-UI, DevExtreme
 - Server: Node.js, Express.js
 - Database: MongoDB Atlas
-- Testing: Postman or Thunder Client 
+- Testing: Postman or Thunder Client
+
+## Contributions
+Contributions are welcome! If you find any bugs or want to enhance the app, feel free to open issues or submit pull requests. Please make sure to follow the coding standards and guidelines.
+
+Happy coding! If you have any questions or need assistance, don't hesitate to reach out.
 
 
 
