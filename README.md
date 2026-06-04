@@ -56,8 +56,8 @@ If you are using Gmail, enable **2-Step Verification** and generate an **App Pas
 - `MAIL_PASS` : Your email App Password generated through Google Account Security settings.
 
 Server related environment variables.
-- MONGO_URL : Your MongoDB connection string
-- PORT : Port number
+- `MONGO_URL` : Your MongoDB connection string
+- `PORT` : Port number
 
 ## Run Locally
 
@@ -108,6 +108,7 @@ npm start
 
 ## Contributions
 Contributions are welcome! If you find any bugs or want to enhance the app, feel free to open issues or submit pull requests. Please make sure to follow the coding standards and guidelines.
+
 Happy coding! If you have any questions or need assistance, don't hesitate to reach out.
 
 ## Designed and Implemented By
