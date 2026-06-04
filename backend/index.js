@@ -8,7 +8,7 @@ import cors from "cors";
 import morgan from "morgan";
 import helmet from "helmet";
 import bodyParser from "body-parser";
-
+import path from "path";
 
 dotenv.config();
 
